@@ -1,0 +1,68 @@
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+
+}
+.menu{
+  height: 500px;
+  width: 500px;
+  background-color: rgb(24, 197, 197);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.menu button{
+  width: 300px;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 7px;
+  font-size: 20px;
+}
+.quiz, .endscreen{
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(24, 197, 197);
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.quiz button{
+  border: none;
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  cursor: pointer;
+}
+.quiz .options{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.endscreen button{
+  border: none;
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.finish{
+  border: 0;
+  width: 150px;
+  height: 50px;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+.finish:hover{
+  background-color: #222;
+  color: #fff;
+}
